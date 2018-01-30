@@ -17,6 +17,7 @@ nav li {
    display: inline-block;
    padding: 5px 5px;
    text-decoration: none;
+   box-sizing: border-box;
 }
 
 nav a {
@@ -25,12 +26,14 @@ nav a {
    color: black;
    text-decoration: none;
    font-family: 'Cutive Mono', monospace;
+   box-sizing: border-box;
 }
 
 nav a:hover {
    border-bottom: 3px solid black;
    color: #cccccc;
-   position: justify;
+   margin: 0px;
+   padding: 0px;
 }
 
 h1 {
@@ -48,4 +51,8 @@ div {
 
 .self {
    padding: 50px 10px 35px 45px;
+}
+
+h3, h4, h5 {
+   margin-left: 25px;
 }
